@@ -1,0 +1,113 @@
+
+<!-- title -->
+
+<div style="color: rgb(255, 255, 255);font-size: xx-large;">
+<div style="text-align: center; margin-top: 2%;">
+<span><b>Omer Shlomo</b></span>
+</div>
+<div class="menu">
+<button mat-button [matMenuTriggerFor]="belowMenu"><img class="menu_icon" [src]="menu" alt=""></button>
+<mat-menu #belowMenu="matMenu" yPosition="below">
+  <button mat-menu-item ><a href="..\assets\Omer_Shlomo_Resume.docx" class="btn" target="_blank" download="Omer_Shlomo_Resume.docx"> Resume</a></button>
+</mat-menu>
+</div>
+
+
+<!-- tabs -->
+   
+</div>
+<div class="tab" >
+<mat-tab-group dynamicHeight >
+    <mat-tab label="About" >
+        <div class="example-large-box mat-elevation-z4">
+        
+        <p>
+        <span>
+            <img id="myImg" [src]="omer" alt="">
+
+        </span>
+        <br>
+        <span>
+        
+        I'm Omer Shlomo,
+     </span>
+     <span>
+        27 years old, Student .
+    </span>
+    <br>
+    <span>
+        Working in startup- that called <a href="https://www.yooz.plus/"><img [src]="yooz" class="yooz" ></a>
+    </span>
+    <br>
+    <span>
+        Working as Quality assurance, Web developer and a Designer.
+
+    </span>
+    </div>
+    </mat-tab>
+    <mat-tab label="Framework">
+      <div class="example-large-box mat-elevation-z4">
+        <ul>
+        Frameworks I know to work with:
+        <ul>
+          <li>
+            Django
+          </li>
+
+          <li>
+            Angular
+          </li>
+        </ul>
+      </ul>
+      </div>
+    </mat-tab>
+    <mat-tab label="Databases">
+      <div class="example-large-box mat-elevation-z4">
+        <ul>
+        Databases I know to work with:
+        <ul>
+          NoSQL
+        <ul>
+          <li>
+            Firebase
+          </li>
+
+          <li>
+            MongoDb
+          </li>
+
+          <li>
+            Redis
+          </li>
+
+          <li>
+            Neo4j
+          </li>
+        </ul>
+          
+        
+        SQL
+        
+        <ul>
+          <li>MySQL</li>
+        </ul>
+
+
+
+        </ul>
+      </ul>
+      </div>
+    </mat-tab>
+  </mat-tab-group>
+</div>
+
+<ng-image-slider [images]="imageObject" #nav></ng-image-slider>
+
+<div class="buttons">
+<a href="https://www.facebook.com/omermaorsh"><img class="img-size" [src]="facebook" alt=""></a>
+<a href="www.linkedin.com/in/omer-shlomo-396b0419a"><img class="img-size" [src]="in" alt=""></a>
+<a href="https://github.com/Omeritzio"><img class="img-size" [src]="github" alt=""></a>
+</div>
+
+
+
