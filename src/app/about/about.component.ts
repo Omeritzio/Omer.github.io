@@ -35,9 +35,4 @@ export class AboutComponent implements OnInit {
 
 ];
 
-
-  
-}
-export class SidenavOverviewExample {
-  shouldRun = [/(^|\.)plnkr\.co$/, /(^|\.)stackblitz\.io$/].some(h => h.test(window.location.host));
 }

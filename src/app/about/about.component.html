@@ -5,11 +5,14 @@
 
 <mat-sidenav-container class="cont-style" >
   <mat-sidenav class="sidenav" #sidenav mode="push" [(opened)]="opened">
-    <div class="sn-header">
-    Menu 
-  </div>
+
     <ul>
-      <button class="menucontent" mat-menu-item ><a href="..\assets\Omer_Shlomo_Resume.docx" class="btn" target="_blank" download="Omer_Shlomo_Resume.docx"> Resume</a></button>
+      <div class="sn-header">
+        Menu 
+      </div>
+      <li>
+      <a class="active" href="..\assets\Omer_Shlomo_Resume.docx" target="_blank" download="Omer_Shlomo_Resume2.docx"> Resume </a>
+    </li>
     </ul>
   </mat-sidenav>
   
