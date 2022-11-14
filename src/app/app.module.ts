@@ -12,7 +12,8 @@ import {MatTabsModule} from '@angular/material/tabs';
 import { ResumeService } from './about/resume.service';
 import { HttpClientModule } from '@angular/common/http';
 import { NgImageSliderModule } from 'ng-image-slider';
-
+import {MatSidenavModule} from '@angular/material/sidenav';
+import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -32,6 +33,8 @@ import { NgImageSliderModule } from 'ng-image-slider';
     MatTabsModule,
     HttpClientModule,
     NgImageSliderModule,
+    MatSidenavModule,
+    FormsModule,
   ],
   providers: [ResumeService],
   bootstrap: [AppComponent]

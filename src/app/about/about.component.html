@@ -1,25 +1,29 @@
 
 <!-- Title -->
 
-<div style="color: rgb(255, 255, 255);font-size: xx-large;">
-<div style="text-align: center; margin-top: 2%;">
-<span><b>Omer Shlomo</b></span>
-</div>
 
-<!-- Menu -->
-<div class="menu">
-<button mat-button [matMenuTriggerFor]="belowMenu"><img class="menu_icon" [src]="menu" alt=""></button>
-<mat-menu #belowMenu="matMenu" yPosition="below">
 
-  <!-- Resume download -->
-  <button mat-menu-item ><a href="..\assets\Omer_Shlomo_Resume.docx" class="btn" target="_blank" download="Omer_Shlomo_Resume.docx"> Resume</a></button>
-</mat-menu>
-</div>
+<mat-sidenav-container class="cont-style" >
+  <mat-sidenav class="sidenav" #sidenav mode="push" [(opened)]="opened">Menu 
+    <ul>
+      <button class="menucontent" mat-menu-item ><a href="..\assets\Omer_Shlomo_Resume.docx" class="btn" target="_blank" download="Omer_Shlomo_Resume.docx"> Resume</a></button>
+    </ul>
+  </mat-sidenav>
+  
+  <mat-sidenav-content>
+    <h1 style="color: rgb(255, 255, 255);font-size: xx-large;text-align: center; margin-top: 2%;">Omer Shlomo</h1>
+    <button class="menu_bttn" (click)="sidenav.toggle()">
+      <img class="menu_icon" [src]="menu" alt="">
+    </button>
+<!-- 
+    <div style="color: rgb(255, 255, 255);font-size: xx-large;">
+<div style=""> -->
+
 
 
 <!-- Tabs -->
    
-</div>
+
 <div class="tab" >
 <mat-tab-group dynamicHeight >
     <mat-tab label="About" >
@@ -111,4 +115,9 @@
 </div>
 
 
+</mat-sidenav-content>
+
+
+
+</mat-sidenav-container>
 
