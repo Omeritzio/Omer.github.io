@@ -15,6 +15,7 @@ export class AboutComponent implements OnInit {
   facebook="../assets/facebook.png";
   github="../assets/github.png";
   in="../assets/in.png";
+  logo="../assets/omershlomo.png";
 
   opened = false;
   public zoom():void{
@@ -25,14 +26,18 @@ export class AboutComponent implements OnInit {
   }
 
   imageObject: Array<object> = [{
-    video: 'https://youtu.be/qxitY_s5ad4', // Support base64 image
-    thumbImage: 'https://youtu.be/qxitY_s5ad4', // Support base64 image
-    title: 'music', //Optional: You can use this key if want to show image with title
-    alt: '', //Optional: You can use this key if want to show image with alt
-    order: 1 //Optional: if you pass this key then slider images will be arrange according @input: slideOrderType
+    video :'./assets/song.mp4',
+    alt: 'פאר טסי העולם המתוקן' ,
+    title: 'פאר טסי העולם המתוקן' ,
+
 }, 
 
 
 ];
 
+
+  
+}
+export class SidenavOverviewExample {
+  shouldRun = [/(^|\.)plnkr\.co$/, /(^|\.)stackblitz\.io$/].some(h => h.test(window.location.host));
 }

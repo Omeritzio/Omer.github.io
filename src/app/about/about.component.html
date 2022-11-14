@@ -17,11 +17,17 @@
   </mat-sidenav>
   
   <mat-sidenav-content>
-    <h1 style="color: rgb(255, 255, 255);font-size: xx-large;text-align: center; margin-top: 2%;">Omer Shlomo</h1>
-    <button class="menu_bttn" (click)="sidenav.toggle()">
-      <img class="menu_icon" [src]="menu" alt="">
-    </button>
+    <!-- Title -->
+    <img class="logo" [src]="logo" alt="">
+    <br>
+    <span>
 
+      <button class="menu_bttn" (click)="sidenav.toggle()" >
+       <img class="menu_icon" [src]="menu" alt="menu">
+      </button>
+
+    </span>
+    
 
 <!-- Tabs -->
    
@@ -107,7 +113,6 @@
     </mat-tab>
   </mat-tab-group>
 </div>
-
 <ng-image-slider [images]="imageObject" #nav></ng-image-slider>
 
 <div class="buttons">
