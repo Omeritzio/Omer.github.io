@@ -25,10 +25,10 @@ export class AboutComponent implements OnInit {
   }
 
   imageObject: Array<object> = [{
-    video: 'https://www.youtube.com/watch?v=qxitY_s5ad4', // Support base64 image
-    thumbImage: 'https://www.youtube.com/watch?v=qxitY_s5ad4', // Support base64 image
-    title: '', //Optional: You can use this key if want to show image with title
-    alt: 'Tibetian Beast', //Optional: You can use this key if want to show image with alt
+    video: 'https://youtu.be/qxitY_s5ad4', // Support base64 image
+    thumbImage: 'https://youtu.be/qxitY_s5ad4', // Support base64 image
+    title: 'music', //Optional: You can use this key if want to show image with title
+    alt: '', //Optional: You can use this key if want to show image with alt
     order: 1 //Optional: if you pass this key then slider images will be arrange according @input: slideOrderType
 }, 
 
