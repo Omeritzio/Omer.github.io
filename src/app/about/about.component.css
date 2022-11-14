@@ -148,7 +148,7 @@ mat-sidenav {
 }
 
 
-ul {
+.sb_ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -156,19 +156,19 @@ ul {
   overflow: auto;
 }
 
-li a {
+.sb_li a {
   display: block;
   color: white;
   padding: 8px 16px;
   text-decoration: none;
 }
 
-li a.active {
+.sb_li a.active {
   background: rgb(30, 30, 54);
   color: white;
 }
 
-li a:hover:not(.active) {
+.sb_li a:hover:not(.active) {
   background-color: #555;
   color: silver;
 
