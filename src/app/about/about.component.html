@@ -1,11 +1,7 @@
 
-<!-- Title -->
-
-
-
 <mat-sidenav-container class="cont-style" >
   <mat-sidenav class="sidenav" #sidenav mode="push" [(opened)]="opened">
-
+<!-- 1.List -->
     <ul class="sb_ul">
       <div class="sn-header">
         Menu 
@@ -17,7 +13,7 @@
   </mat-sidenav>
   
   <mat-sidenav-content>
-    <!-- Title -->
+    <!-- 2.Title -->
     <img class="logo" [src]="logo" alt="">
     <br>
     <span>
@@ -29,14 +25,14 @@
     </span>
     
 
-<!-- Tabs -->
+<!-- 3.Tabs -->
    
 
 <div class="tab" >
 <mat-tab-group dynamicHeight >
     <mat-tab label="About" >
         <div class="example-large-box mat-elevation-z4">
-        
+        <!-- 4.Pragraph -->
         <p>
         <span>
             <img id="myImg" [src]="omer" alt="">
@@ -114,6 +110,8 @@
   </mat-tab-group>
 </div>
 <ng-image-slider [images]="imageObject" #nav></ng-image-slider>
+
+
 
 <div class="buttons">
 <a href="https://www.facebook.com/omermaorsh"><img class="img-size" [src]="facebook" alt=""></a>

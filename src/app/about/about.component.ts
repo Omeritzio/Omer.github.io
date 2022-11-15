@@ -18,6 +18,8 @@ export class AboutComponent implements OnInit {
   logo="../assets/omershlomo.png";
 
   opened = false;
+
+  
   public zoom():void{
 
   }
@@ -31,8 +33,18 @@ export class AboutComponent implements OnInit {
     title: 'פאר טסי העולם המתוקן' ,
 
 }, 
+{
+  video :'./assets/song2.mp4',
+  alt: 'עדן חסון -שקיעות אדומות' ,
+  title: 'עדן חסון -שקיעות אדומות' ,
 
+}, 
+{
+  video :'./assets/song3.mp4',
+  alt: 'עדן חסון -שמישהו יעצור אותי' ,
+  title:  'עדן חסון -שמישהו יעצור אותי' ,
 
+}, 
 ];
 
 
