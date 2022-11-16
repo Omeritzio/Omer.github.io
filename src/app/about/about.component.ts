@@ -19,7 +19,7 @@ export class AboutComponent implements OnInit {
 
   opened = false;
 
-  
+
   public zoom():void{
 
   }
@@ -46,6 +46,7 @@ export class AboutComponent implements OnInit {
 
 }, 
 ];
+
 
 
   
