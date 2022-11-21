@@ -175,6 +175,7 @@ mat-sidenav {
 }
 
 .sb_li a:hover:not(.active) {
+  color: rgb(255, 255, 255);
   text-shadow:
       0 0 7px rgb(8, 247, 255),
       0 0 10px rgb(0, 203, 248),
