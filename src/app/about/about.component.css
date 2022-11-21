@@ -140,7 +140,7 @@ mat-sidenav {
 .cont-style {
   height: 100%;
   width: 100%;
-  background-image: url(src\assets\bg.jpg);
+  background-color: transparent;
 }
 .sn-header {
   font-size: x-large;
@@ -182,4 +182,13 @@ mat-sidenav {
   margin-left: 40%;
   width: 20%;
   
+}
+
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 }

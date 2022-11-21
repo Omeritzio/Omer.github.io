@@ -23,3 +23,66 @@ body {  font-family: Roboto, "Helvetica Neue", sans-serif;
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+/* --------------- */
+
+.section-padding {
+	padding: 50px 0;
+}
+.wrapper {
+	width: 1170px;
+	margin: 0 auto;
+}
+header {
+	overflow: hidden;
+	height: 100vh;
+	position: relative;
+}
+.vid-bg {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+}
+.nav-area {
+	background: rgba(0, 0, 0, 0.7);
+	height: 60px;
+	position: absolute;
+	width: 100%;
+}
+.menu-area {
+	float: right;
+	list-style: none;
+	margin: 20px;
+}
+
+
+@media (min-width: 767px) and (max-width: 991px) {
+	.welcome-text p {
+		width: 95%;
+	}
+}
+@media (max-width: 767px) {
+
+	.menu-area {
+		float: none;
+		text-align: center;
+		margin: 0;
+	}
+	/* .menu-area li {
+		margin: 0;
+	}
+	.menu-area li a {
+		padding: 5px 2px;
+		font-size: 12px;
+	} */
+	.logo {
+		margin: 5px 0;
+		font-size: 35px;
+		height: 45px;
+	}
+	.nav-area {
+		height: 90px;
+	}
+
+}

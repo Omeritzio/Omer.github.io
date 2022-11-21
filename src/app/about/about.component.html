@@ -1,4 +1,14 @@
 
+<!-- Video Background -->
+<video autoplay muted loop id="myVideo">
+  <source src="..\assets\Chip-84086.mp4" type="video/mp4">
+</video>
+
+
+
+
+<!-- Side bar -->
+
 <mat-sidenav-container class="cont-style" >
   <mat-sidenav class="sidenav" #sidenav mode="push" [(opened)]="opened">
 <!-- 1.List -->
@@ -109,10 +119,12 @@
     </mat-tab>
   </mat-tab-group>
 </div>
+
+<!-- Video Slider -->
 <ng-image-slider [images]="imageObject" #nav></ng-image-slider>
 
 
-
+<!-- Buttons -->
 <div class="buttons">
 <a href="https://www.facebook.com/omermaorsh"><img class="img-size" [src]="facebook" alt=""></a>
 <a href="https://www.linkedin.com/in/omer-shlomo-396b0419a"><img class="img-size" [src]="in" alt=""></a>
