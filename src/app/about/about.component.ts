@@ -33,6 +33,12 @@ export class AboutComponent implements OnInit {
 
 }, 
 {
+  video :'./assets/song5.mp4',
+  alt: 'פאר טסי - סיכוי נוסף ',
+  title: 'פאר טסי - סיכוי נוסף ' ,
+
+}, 
+{
   video :'./assets/song2.mp4',
   alt: 'עדן חסון -שקיעות אדומות' ,
   title: 'עדן חסון -שקיעות אדומות' ,
@@ -44,6 +50,13 @@ export class AboutComponent implements OnInit {
   title:  'עדן חסון -שמישהו יעצור אותי' ,
 
 }, 
+{
+  video :'./assets/song4.mp4',
+  alt: 'עדן חסון -עיניים' ,
+  title:  'עדן חסון -עיניים' ,
+
+}, 
+
 ];
 
 
