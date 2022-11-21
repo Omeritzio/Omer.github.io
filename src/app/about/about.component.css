@@ -236,3 +236,7 @@ mat-sidenav {
   margin-top: 10%;
 
 }
+.btn-back {
+  background-color: transparent;
+  border-color: transparent;
+}
