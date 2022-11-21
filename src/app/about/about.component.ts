@@ -29,8 +29,8 @@ export class AboutComponent implements OnInit {
 
   imageObject: Array<object> = [{
     video :'./assets/song.mp4',
-    alt: 'פאר טסי העולם המתוקן' ,
-    title: 'פאר טסי העולם המתוקן' ,
+    alt: 'פאר טסי- העולם המתוקן' ,
+    title: 'פאר טסי- העולם המתוקן' ,
 
 }, 
 {
