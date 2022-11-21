@@ -15,7 +15,6 @@ export class AboutComponent implements OnInit {
   facebook="../assets/facebook.png";
   github="../assets/github.png";
   in="../assets/in.png";
-  logo="../assets/omershlomo.png";
 
   opened = false;
 
