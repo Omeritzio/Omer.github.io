@@ -123,7 +123,8 @@ mat-sidenav {
 }
 
 .sidenav {
-  background: rgb(30, 30, 54);
+  background-color: rgb(1, 1, 1);
+  
 }
 
 .menucontent {
@@ -170,12 +171,19 @@ mat-sidenav {
   background: rgb(30, 30, 54);
   color: white;
   
+  
 }
 
 .sb_li a:hover:not(.active) {
-  background: rgb(50, 50, 85);
-  color: rgb(0, 211, 29);
-
+  text-shadow:
+      0 0 7px rgb(8, 247, 255),
+      0 0 10px rgb(0, 203, 248),
+      0 0 21px rgb(11, 218, 255),
+      0 0 42px #0fa,
+      0 0 82px rgb(11, 216, 231),
+      0 0 92px rgb(69, 112, 255),
+      0 0 102px rgb(20, 81, 212),
+      0 0 151px rgb(13, 0, 255);
 }
 
 .logo {
@@ -209,4 +217,21 @@ mat-sidenav {
   font-size: 6em;
   text-align: center;
   margin-top: 2%;
+}
+
+.neonMenu {
+  color: rgb(255, 255, 255);
+  text-shadow:
+      0 0 7px rgb(8, 247, 255),
+      0 0 10px rgb(0, 203, 248),
+      0 0 21px rgb(11, 218, 255),
+      0 0 42px #0fa,
+      0 0 82px rgb(11, 216, 231),
+      0 0 92px rgb(69, 112, 255),
+      0 0 102px rgb(20, 81, 212),
+      0 0 151px rgb(13, 0, 255);
+  font-size: 2em;
+  margin-left: 40%;
+  margin-top: 10%;
+
 }
