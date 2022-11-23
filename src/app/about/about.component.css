@@ -272,7 +272,11 @@ mat-sidenav {
   margin-bottom: 3%;
 }
 
-
+.menu_icon {
+  width: 10%;
+  height: 20%;
+  margin-left: 40%;
+}
 
 }
 
@@ -293,3 +297,6 @@ mat-sidenav {
     margin-top: 2%;
   }
 }
+
+
+/* -------------- */
