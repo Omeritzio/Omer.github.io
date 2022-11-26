@@ -1,210 +1,259 @@
 .example-spacer {
-    flex: 1 1 auto;
-  }
+  flex: 1 1 auto;
+}
 
 
 .example-small-box, .example-large-box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 16px;
-    padding: 16px;
-    border-radius: 8px;
-    font-size: 20px;
-  }
-  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 16px;
+  padding: 16px;
+  border-radius: 8px;
+  font-size: 20px;
+}
 
-  
-  .example-large-box {
-    height: 300px;
-    width: 300px;
-  }
+
+
+.example-large-box {
+  height: 300px;
+  width: 300px;
+}
 
 .tab{
-    color: white;
+  color: white;
 }
 .example-icon {
-    margin-left: 0%;
+  margin-left: 0%;
 }
 
 .menu {
-    margin-left: 90%;
+  margin-left: 90%;
 }
 .gg-menu-grid-o {
-    color: rgb(255, 255, 255);
-    box-sizing: border-box;
-    position: relative;
-    display: block;
-    transform: scale(var(--ggs,1));
-    width: 16px;
-    height: 16px;
+  color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  transform: scale(var(--ggs,1));
+  width: 16px;
+  height: 16px;
 }
 
 .gg-menu-grid-o::before {
-    content: "";
-    display: block;
-    box-sizing: border-box;
-    position: absolute;
-    width: 4px;
-    height: 4px;
-    background: currentColor;
-    box-shadow:
-        0 6px 0,
-        6px 6px 0,
-        12px 6px 0,
-        6px 12px 0,
-        12px 12px 0,
-        6px 0 0,
-        12px 0 0,
-        0 12px 0
-    ;
-    border-radius: 22px;
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background: currentColor;
+  box-shadow:
+      0 6px 0,
+      6px 6px 0,
+      12px 6px 0,
+      6px 12px 0,
+      12px 12px 0,
+      6px 0 0,
+      12px 0 0,
+      0 12px 0
+  ;
+  border-radius: 22px;
 }
 
 .yooz {
-    height: 10%;
-    width: 20%;
+  height: 10%;
+  width: 20%;
 }
 .menu_bttn{
-  background: transparent; 
-  border-color: transparent;
-  
+background: transparent; 
+border-color: transparent;
+
 }
 .menu_icon {
-    width: 5%;
-    height: 20%;
-    margin-right: 100%;
+  width: 5%;
+  height: 20%;
+  margin-right: 100%;
 }
 .mat-menu-trigger {
-    background-color: black;
+  background-color: black;
 }
 .buttons {
-    margin-left: 50%;
+  margin-left: 50%;
 }
 
 .img-size {
-    width: 4%;
-    margin-top: 10%;
+  width: 4%;
+  margin-top: 10%;
 
 }
 .btn{
-    padding: 10px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    border-radius: 5px;
-    text-decoration: none;
-  }
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  text-decoration: none;
+}
 
-  ul {
-    list-style: none;
-  }
+ul {
+  list-style: none;
+}
+
+ul li::before {
+  content: "\2022";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
   
-  ul li::before {
-    content: "\2022";
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    display: inline-block; 
-    width: 1em;
-    margin-left: -1em;
-    
-  }
+}
 
 mat-sidenav-container{
-  height: 100%;
+height: 100%;
+background-image:url('src\assets\bg.gif'); 
+
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 }
 
 mat-sidenav, mat-sidenav-content {
-  padding: 16px;
-  height: -webkit-fill-available;
+padding: 16px;
+height: -webkit-fill-available;
+overflow-x: hidden;
 }
 
 mat-sidenav {
-  background-color: rgb(64, 59, 100);
-  width: 200px;
+background-color: rgb(64, 59, 100);
+width: 200px;
 }
 
 .sidenav {
-  background-color: rgb(1, 1, 1);
-  
+background-color: rgb(1, 1, 1);
+
 }
 
 .menucontent {
 
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 25%;
-  background-color: #f1f1f1;
-  height: 100%; /* Full height */
-  position: fixed; /* Make it stick, even on scroll */
-  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+list-style-type: none;
+margin: 0;
+padding: 0;
+width: 25%;
+background-color: #f1f1f1;
+height: 100%; /* Full height */
+position: fixed; /* Make it stick, even on scroll */
+overflow: auto; /* Enable scrolling if the sidenav has too much content */
 }
 
 
 .cont-style {
-  height: 100%;
-  width: 100%;
-  background-color: transparent;
+height: 100%;
+width: 100%;
+background-color: transparent;
 }
 .sn-header {
-  font-size: x-large;
-  color: silver;
+font-size: x-large;
+color: silver;
 }
 
 
 .sb_ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  position: fixed;
-  overflow: auto;
+list-style-type: none;
+margin: 0;
+padding: 0;
+position: fixed;
+overflow: auto;
 }
 
 .sb_li a {
-  display: block;
-  color: white;
-  padding: 8px 40px;
-  font-size: large;
-  text-decoration: none;
+display: block;
+color: white;
+padding: 8px 40px;
+font-size: large;
+text-decoration: none;
 }
 
 .sb_li a.active {
-  background: rgb(30, 30, 54);
-  color: white;
-  
-  
+background: rgb(30, 30, 54);
+color: white;
+
+
 }
 
 .sb_li a:hover:not(.active) {
-  color: rgb(255, 255, 255);
-  text-shadow:
-      0 0 7px rgb(8, 247, 255),
-      0 0 10px rgb(0, 203, 248),
-      0 0 21px rgb(11, 218, 255),
-      0 0 42px #0fa,
-      0 0 82px rgb(11, 216, 231),
-      0 0 92px rgb(69, 112, 255),
-      0 0 102px rgb(20, 81, 212),
-      0 0 151px rgb(13, 0, 255);
+color: rgb(255, 255, 255);
+text-shadow:
+    0 0 7px rgb(8, 247, 255),
+    0 0 10px rgb(0, 203, 248),
+    0 0 21px rgb(11, 218, 255),
+    0 0 42px #0fa,
+    0 0 82px rgb(11, 216, 231),
+    0 0 92px rgb(69, 112, 255),
+    0 0 102px rgb(20, 81, 212),
+    0 0 151px rgb(13, 0, 255);
 }
 
 .logo {
-  margin: auto;
-  position: relative;
-  margin-left: 40%;
-  width: 20%;
-  
+margin: auto;
+position: relative;
+margin-left: 40%;
+width: 20%;
+
 }
 
 
 #myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
+position: fixed;
+right: 0;
+bottom: 0;
+min-width: 100%;
+min-height: 100%;
 }
 
+.neonText {
+color: rgb(139, 141, 255);
+text-shadow:
+    0 0 7px rgb(8, 247, 255),
+    0 0 10px rgb(0, 203, 248),
+    0 0 21px rgb(11, 218, 255),
+    0 0 42px #0fa,
+    0 0 82px rgb(11, 216, 231),
+    0 0 92px rgb(69, 112, 255),
+    0 0 102px rgb(20, 81, 212),
+    0 0 151px rgb(13, 0, 255);
+font-size: 6em;
+text-align: center;
+margin-top: 2%;
+}
+
+.neonMenu {
+color: rgb(255, 255, 255);
+text-shadow:
+    0 0 7px rgb(8, 247, 255),
+    0 0 10px rgb(0, 203, 248),
+    0 0 21px rgb(11, 218, 255),
+    0 0 42px #0fa,
+    0 0 82px rgb(11, 216, 231),
+    0 0 92px rgb(69, 112, 255),
+    0 0 102px rgb(20, 81, 212),
+    0 0 151px rgb(13, 0, 255);
+font-size: 2em;
+margin-left: 40%;
+margin-top: 10%;
+
+}
+.btn-back {
+background-color: transparent;
+border-color: transparent;
+}
+
+@media (min-width: 350px) and (max-width: 800px) {
+body {
+  overflow-y: scroll;
+  
+}
 .neonText {
   color: rgb(139, 141, 255);
   text-shadow:
@@ -216,13 +265,31 @@ mat-sidenav {
       0 0 92px rgb(69, 112, 255),
       0 0 102px rgb(20, 81, 212),
       0 0 151px rgb(13, 0, 255);
-  font-size: 6em;
+  font-size: 3.5em;
   text-align: center;
   margin-top: 2%;
 }
+.img-size {
+  width: 20%;
+  margin-top: 10%;
 
-.neonMenu {
-  color: rgb(255, 255, 255);
+}
+.buttons {
+margin-left: 30%;
+margin-bottom: 3%;
+}
+
+.menu_icon {
+width: 10%;
+height: 20%;
+margin-left: 40%;
+}
+
+}
+
+@media (min-width:200px) and (max-width: 350px) {
+.neonText {
+  color: rgb(139, 141, 255);
   text-shadow:
       0 0 7px rgb(8, 247, 255),
       0 0 10px rgb(0, 203, 248),
@@ -232,70 +299,10 @@ mat-sidenav {
       0 0 92px rgb(69, 112, 255),
       0 0 102px rgb(20, 81, 212),
       0 0 151px rgb(13, 0, 255);
-  font-size: 2em;
-  margin-left: 40%;
-  margin-top: 10%;
-
+  font-size: 3.5em;
+  text-align: center;
+  margin-top: 2%;
 }
-.btn-back {
-  background-color: transparent;
-  border-color: transparent;
-}
-
-@media (min-width: 350px) and (max-width: 800px) {
-  body {
-    overflow-y: scroll;
-    
-  }
-  .neonText {
-    color: rgb(139, 141, 255);
-    text-shadow:
-        0 0 7px rgb(8, 247, 255),
-        0 0 10px rgb(0, 203, 248),
-        0 0 21px rgb(11, 218, 255),
-        0 0 42px #0fa,
-        0 0 82px rgb(11, 216, 231),
-        0 0 92px rgb(69, 112, 255),
-        0 0 102px rgb(20, 81, 212),
-        0 0 151px rgb(13, 0, 255);
-    font-size: 3.5em;
-    text-align: center;
-    margin-top: 2%;
-  }
-  .img-size {
-    width: 20%;
-    margin-top: 10%;
-
-}
-.buttons {
-  margin-left: 30%;
-  margin-bottom: 3%;
-}
-
-.menu_icon {
-  width: 10%;
-  height: 20%;
-  margin-left: 40%;
-}
-
-}
-
-@media (min-width:200px) and (max-width: 350px) {
-  .neonText {
-    color: rgb(139, 141, 255);
-    text-shadow:
-        0 0 7px rgb(8, 247, 255),
-        0 0 10px rgb(0, 203, 248),
-        0 0 21px rgb(11, 218, 255),
-        0 0 42px #0fa,
-        0 0 82px rgb(11, 216, 231),
-        0 0 92px rgb(69, 112, 255),
-        0 0 102px rgb(20, 81, 212),
-        0 0 151px rgb(13, 0, 255);
-    font-size: 3.5em;
-    text-align: center;
-    margin-top: 2%;
-  }
 }
 
 
