@@ -10,7 +10,7 @@ export class AboutComponent implements OnInit {
 
   constructor() { }
   yooz="../assets/YOOZ.png";
-  omer="../assets/omer.jpg";
+  omer="https://res.cloudinary.com/dxgbqusds/image/upload/w_200,h_200,c_scale/v1683905318/Omer_Shlomo_Full_Stack_developer_Angular_frontend_.net_backend_profile_pic_tbjlae.jpg";
   menu="../assets/menu.png";
   facebook="../assets/facebook.png";
   github="../assets/github.png";
@@ -26,41 +26,21 @@ export class AboutComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  imageObject: Array<object> = [{
-    video :'./assets/song.mp4',
-    alt: 'פאר טסי- העולם המתוקן' ,
-    title: 'פאר טסי- העולם המתוקן' ,
-
-}, 
-{
-  video :'./assets/song5.mp4',
-  alt: 'פאר טסי - סיכוי נוסף ',
-  title: 'פאר טסי - סיכוי נוסף ' ,
-
-}, 
-{
-  video :'./assets/song2.mp4',
-  alt: 'עדן חסון -שקיעות אדומות' ,
-  title: 'עדן חסון -שקיעות אדומות' ,
-
-}, 
-{
-  video :'./assets/song3.mp4',
-  alt: 'עדן חסון -שמישהו יעצור אותי' ,
-  title:  'עדן חסון -שמישהו יעצור אותי' ,
-
-}, 
-{
-  video :'./assets/song4.mp4',
-  alt: 'עדן חסון -עיניים' ,
-  title:  'עדן חסון -עיניים' ,
-
-}, 
-
-];
+  imageObject: Array<object> = [];
 
 
+  public ageFromDateOfBirthday(dateOfBirth: any): number {
+    const today = new Date();
+    const birthDate = new Date(dateOfBirth);
+    let age = today.getFullYear() - birthDate.getFullYear();
+    const m = today.getMonth() - birthDate.getMonth();
 
+    if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+      age--;
+    }
+
+    return age;
+  }
   
 }
 export class SidenavOverviewExample {

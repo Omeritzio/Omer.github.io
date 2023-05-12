@@ -111,7 +111,7 @@ ul li::before {
 
 mat-sidenav-container{
 height: 100%;
-background-image:url('src\assets\bg.gif'); 
+background-image:url('src\assets\bg.jpg'); 
 
 /* Center and scale the image nicely */
 background-position: center;
@@ -213,7 +213,7 @@ min-height: 100%;
 }
 
 .neonText {
-color: rgb(139, 141, 255);
+color: rgb(255, 255, 255);
 text-shadow:
     0 0 7px rgb(8, 247, 255),
     0 0 10px rgb(0, 203, 248),

@@ -2,7 +2,8 @@ import { Component } from '@angular/core';
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
-
+import {CloudinaryImage} from '@cloudinary/url-gen';
+import {fill} from '@cloudinary/url-gen/actions/resize';
 
 
 // TODO: Add SDKs for Firebase products that you want to use
@@ -31,6 +32,6 @@ const analytics = getAnalytics(app);
 })
 export class AppComponent {
   title = 'about-page';
-  
+  myImage =  new CloudinaryImage('sample', {cloudName: 'dxgbqusds'}).resize(fill().width(100).height(150)); 
 
 }

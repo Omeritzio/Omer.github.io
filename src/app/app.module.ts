@@ -14,7 +14,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { NgImageSliderModule } from 'ng-image-slider';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import { FormsModule } from '@angular/forms';
-
+import {CloudinaryModule} from '@cloudinary/ng';
 
 
 @NgModule({
@@ -38,6 +38,7 @@ import { FormsModule } from '@angular/forms';
     NgImageSliderModule,
     MatSidenavModule,
     FormsModule,
+    CloudinaryModule,
   ],
   providers: [ResumeService],
   bootstrap: [AppComponent]
