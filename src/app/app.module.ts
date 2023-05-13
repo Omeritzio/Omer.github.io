@@ -15,12 +15,14 @@ import { NgImageSliderModule } from 'ng-image-slider';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import { FormsModule } from '@angular/forms';
 import {CloudinaryModule} from '@cloudinary/ng';
-
+import { FormsComponent } from './forms/forms.component';
+import {MatListModule} from '@angular/material/list';
 
 @NgModule({
   declarations: [
     AppComponent,
     AboutComponent,
+    FormsComponent,
 
   ],
   imports: [
@@ -39,6 +41,7 @@ import {CloudinaryModule} from '@cloudinary/ng';
     MatSidenavModule,
     FormsModule,
     CloudinaryModule,
+    MatListModule,
   ],
   providers: [ResumeService],
   bootstrap: [AppComponent]
