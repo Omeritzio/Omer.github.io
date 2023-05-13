@@ -17,6 +17,7 @@ import { FormsModule } from '@angular/forms';
 import {CloudinaryModule} from '@cloudinary/ng';
 import { FormsComponent } from './forms/forms.component';
 import {MatListModule} from '@angular/material/list';
+import {MatFormFieldModule} from '@angular/material/form-field';
 
 @NgModule({
   declarations: [
@@ -42,6 +43,7 @@ import {MatListModule} from '@angular/material/list';
     FormsModule,
     CloudinaryModule,
     MatListModule,
+    MatFormFieldModule,
   ],
   providers: [ResumeService],
   bootstrap: [AppComponent]

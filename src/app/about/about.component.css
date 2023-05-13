@@ -2,7 +2,6 @@
   flex: 1 1 auto;
 }
 
-
 .example-small-box, .example-large-box {
   display: flex;
   align-items: center;
@@ -255,7 +254,7 @@ body {
   
 }
 .neonText {
-  color: rgb(139, 141, 255);
+  color: rgb(255, 255, 255);
   text-shadow:
       0 0 7px rgb(8, 247, 255),
       0 0 10px rgb(0, 203, 248),
@@ -289,7 +288,7 @@ margin-left: 40%;
 
 @media (min-width:200px) and (max-width: 350px) {
 .neonText {
-  color: rgb(139, 141, 255);
+  color: rgb(255, 255, 255);
   text-shadow:
       0 0 7px rgb(8, 247, 255),
       0 0 10px rgb(0, 203, 248),

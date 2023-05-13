@@ -1,0 +1,13 @@
+body{
+    height: 100%;
+background-image:url('src\assets\bg.jpg'); 
+
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.example-container mat-form-field + mat-form-field {
+    margin-left: 8px;
+  }
